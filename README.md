@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🚀SPAMGUARD(HACKATHON PROJECT-24hr) 
 
-**URL**: https://lovable.dev/projects/7b8f43c3-7c43-4d27-a113-e25c104bbfdd
+A modern web application built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn-ui**.
+This project follows best practices for performance, scalability, and clean UI design.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧩 Tech Stack
 
-**Use Lovable**
+* **React** — UI library for building interactive interfaces
+* **TypeScript** — Strongly typed JavaScript for scalable development
+* **Vite** — Fast and modern build tool
+* **Tailwind CSS** — Utility-first CSS framework
+* **shadcn-ui** — Beautifully designed, accessible UI components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7b8f43c3-7c43-4d27-a113-e25c104bbfdd) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ Getting Started
 
-**Use your preferred IDE**
+Follow these steps to set up and run the project locally.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1️⃣ Clone the Repository
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 2️⃣ Install Dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Make sure you have **Node.js** (v18 or higher) and **npm** installed.
+
+```bash
+npm install
+```
+
+### 3️⃣ Start the Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧠 Development Notes
 
-## What technologies are used for this project?
+* Modify source code inside the `src/` directory.
+* Changes will automatically reload in the browser during development.
+* You can customize the UI using **Tailwind CSS** utility classes and **shadcn-ui** components.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚢 Deployment
 
-## How can I deploy this project?
+You can deploy this project using any modern platform that supports static front-end hosting, such as:
 
-Simply open [Lovable](https://lovable.dev/projects/7b8f43c3-7c43-4d27-a113-e25c104bbfdd) and click on Share -> Publish.
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
+* **Cloudflare Pages**
 
-## Can I connect a custom domain to my Lovable project?
+To create a production build:
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Then deploy the contents of the `dist/` folder.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
