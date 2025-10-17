@@ -8,7 +8,7 @@ A modern web application to analyze phone numbers and text messages for spam or 
 ## 🚀 Live Demo
 
 Check it out here:
-[https://spamguard-tel-checker.lovable.app](https://tinyurl.com/spamguard12)
+[https://tinyurl.com/spamguard12](https://tinyurl.com/spamguard12)
 
 ---
 
